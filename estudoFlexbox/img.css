@@ -1,0 +1,44 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.header {
+	background-color: #2c3e50;
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row nowrap;
+	padding: 1em;
+}
+.header h3 {
+	flex:2;
+}
+.header nav ul {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.header nav ul li {
+	color: goldenrod;
+	padding-right: 14px;
+	list-style: none;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.header a:first-child {
+	margin-left: 20px;
+    border-right: 1px black solid;
+}
+.header a {
+    color: white;
+    padding: 0 15px;
+	text-decoration: none;
+}
+
+
+@media (max-width: 1250px) {
+	.header nav ul li {
+		display: none;
+	}
+}

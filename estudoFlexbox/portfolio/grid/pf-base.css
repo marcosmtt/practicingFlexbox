@@ -1,0 +1,26 @@
+html {
+	box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: sans-serif;
+}
+a {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.pf-sidebar {
+	background-color: grey;
+    padding: 5vw;
+}
+
+.pf-grid-item {
+    background-color: grey;
+    padding: 3vw;
+}
